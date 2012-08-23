@@ -1,1 +1,1 @@
-module.exports = require('./icebox');
+module.exports = require('./lib/icebox');
