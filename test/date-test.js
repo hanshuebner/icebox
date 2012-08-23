@@ -9,7 +9,7 @@ buster.testCase("Date support", {
         var thawed = icebox.thaw(frozen);
         assert.equals(timestamp.getTime(), thawed.timestamp.getTime(), 'Date object could not be restored');
     },
-    "same Date serialized two times yields same frozen represenation": function() {
+    "same Date serialized two times yields same frozen representation": function() {
         var data = { now: new Date() };
         assert.equals(icebox.freeze(data), icebox.freeze(data), 'Same object containing Date yielded different external representations');
     }
