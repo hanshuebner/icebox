@@ -4,7 +4,7 @@
   "description": "Object serialization library",
   "main": "lib/icebox.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "buster test"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,6 @@
     "serialization"
   ],
   "author": "Hans Hübner",
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": { "buster": ">=0.6.2" }
 }
