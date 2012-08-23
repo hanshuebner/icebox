@@ -1,0 +1,18 @@
+{
+  "name": "icebox",
+  "version": "0.1.0",
+  "description": "Object serialization library",
+  "main": "lib/icebox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hanshuebner/icebox.js"
+  },
+  "keywords": [
+    "serialization"
+  ],
+  "author": "Hans Hübner",
+  "license": "BSD"
+}
