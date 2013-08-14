@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hanshuebner/icebox.js"
+    "url": "git://github.com/hanshuebner/icebox"
   },
   "keywords": [
     "serialization"
