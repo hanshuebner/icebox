@@ -33,4 +33,17 @@ Thaw the frozen representation to yield the same circular structure:
 var data = icebox.thaw(frozen);
 ```
 
+## thawed() callback
 
+Whenever an object is restored from the frozen representation, its
+thawed() function is invoked, if it exists.  The thawed() function can
+be used for bookkeeping, but it must not assume that anything beyond
+the current object has been thawed() yet.
+
+## Additional notes
+
+Icebox tags each object that it serializes with an ID in order to
+resolve circles.  These ids are not available outside of the
+serialization process, and applications must use their own object IDs,
+if desired, as icebox needs to have full control over its own ID
+space.
